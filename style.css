@@ -306,6 +306,8 @@ margin: auto 0;
 
 #experience {
 position: relative;
+justify-items: left;
+text-align: left;
 }
 
 .experience-sub-title {
@@ -317,13 +319,14 @@ margin-bottom: 2rem;
 
 .experience-details-container {
 display: flex;
-justify-content: center;
+justify-content: left;
 flex-direction: column;
+text-align: left;
 }
 
 .article-container {
 display: flex;
-text-align: initial;
+text-align: left;
 flex-wrap: wrap;
 flex-direction: row;
 gap: 2.5rem;

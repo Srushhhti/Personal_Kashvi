@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+</head>
+<body>
+    <nav id="desktop-nav">
+        <div class="logo"> <a href="./index.html">Personal Webpage</a></div>
+        <div>
+            <ul class="nav-links">
+                <li> <a href="./index.html">About</a> </li>
+                <li> <a href="./research.html">Research</a> </li>
+                <li> <a href="./teaching.html">Teaching</a> </li>
+                <li> <a href="./talks.html">Talks</a> </li>
+                <li> <a href="#">Others</a> </li>
+                <li> <a href="./index.html">Contact</a> </li>
+            </ul>
+        </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo"> <a href="./index.html"> Personal Webpage</a></div>
+      <div class="hamburger-menu">
+          <div class="hamburger-icon" onclick="toggleMenu()">
+              <span></span>
+              <span></span>
+              <span></span>
+          </div>
+          <div class="menu-links">
+              <li> <a href="./index.html" onclick="toggleMenu()">About</a> </li>
+              <li> <a href="./research.html" onclick="toggleMenu()">Research</a> </li>
+              <li> <a href="./teaching.html" onclick="toggleMenu()">Teaching</a> </li>
+              <li> <a href="./talks.html" onclick="toggleMenu()">Talks</a> </li>
+              <li> <a href="#" onclick="toggleMenu()">Others</a> </li>
+              <li> <a href="./index.html" onclick="toggleMenu()">Contact</a> </li>
+          </div>
+      </div>
+    
+    </nav>
+    <script src="script.js"></script>
+</body>
+</html>

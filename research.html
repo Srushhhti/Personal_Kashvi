@@ -8,139 +8,51 @@
     <link rel="stylesheet" href="mediaqueries.css">
 </head>
 <body>
+  <nav id="desktop-nav">
+    <div class="logo"> <a href="./index.html">Personal Webpage</a></div>
+    <div>
+        <ul class="nav-links">
+            <li> <a href="./index.html">About</a> </li>
+            <li> <a href="#">Research</a> </li>
+            <li> <a href="./teaching.html">Teaching</a> </li>
+            <li> <a href="./talks.html">Talks</a> </li>
+            <li> <a href="./other.html">Others</a> </li>
+            <li> <a href="./index.html">Contact</a> </li>
+        </ul>
+    </div>
+</nav>
+<nav id="hamburger-nav">
+  <div class="logo"> <a href="./index.html"> Personal Webpage</a></div>
+  <div class="hamburger-menu">
+      <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+      </div>
+      <div class="menu-links">
+          <li> <a href="./index.html" onclick="toggleMenu()">About</a> </li>
+          <li> <a href="#" onclick="toggleMenu()">Research</a> </li>
+          <li> <a href="./teaching.html" onclick="toggleMenu()">Teaching</a> </li>
+          <li> <a href="./talks.html" onclick="toggleMenu()">Talks</a> </li>
+          <li> <a href="./other.html" onclick="toggleMenu()">Others</a> </li>
+          <li> <a href="./index.html" onclick="toggleMenu()">Contact</a> </li>
+      </div>
+  </div>
+
+</nav>
+
     <section id="experience">
-        <p class="section__text__p1">Explore My</p>
-        <h1 class="title">Experience</h1>
+      <div class="section__pic-container" style="height: 30%; width: 80%;margin-left: -4rem;padding-bottom: 2rem;">
+        <img src="./assets/PASS-1.png" alt="PASS-1" />
+        <img src="./assets/NewFail-1.png" alt="NewFail-1" />
+        <img src="./assets/DataProfile_TolAnalysis (1).png" alt="data-profile" />
+      </div>
+        
         <div class="experience-details-container">
-          <div class="about-containers">
-            <div class="details-container">
-              <h2 class="experience-sub-title">Frontend Development</h2>
-              <div class="article-container">
-                <article>
-                  <img
-                    src="./assets/checkmark.png"
-                    alt="Experience icon"
-                    class="icon"
-                  />
-                  <div>
-                    <h3>HTML</h3>
-                    <p>Experienced</p>
-                  </div>
-                </article>
-                <article>
-                  <img
-                    src="./assets/checkmark.png"
-                    alt="Experience icon"
-                    class="icon"
-                  />
-                  <div>
-                    <h3>CSS</h3>
-                    <p>Experienced</p>
-                  </div>
-                </article>
-                <article>
-                  <img
-                    src="./assets/checkmark.png"
-                    alt="Experience icon"
-                    class="icon"
-                  />
-                  <div>
-                    <h3>SASS</h3>
-                    <p>Intermediate</p>
-                  </div>
-                </article>
-                <article>
-                  <img
-                    src="./assets/checkmark.png"
-                    alt="Experience icon"
-                    class="icon"
-                  />
-                  <div>
-                    <h3>JavaScript</h3>
-                    <p>Basic</p>
-                  </div>
-                </article>
-                <article>
-                  <img
-                    src="./assets/checkmark.png"
-                    alt="Experience icon"
-                    class="icon"
-                  />
-                  <div>
-                    <h3>TypeScript</h3>
-                    <p>Basic</p>
-                  </div>
-                </article>
-                <article>
-                  <img
-                    src="./assets/checkmark.png"
-                    alt="Experience icon"
-                    class="icon"
-                  />
-                  <div>
-                    <h3>Material UI</h3>
-                    <p>Intermediate</p>
-                  </div>
-                </article>
-              </div>
-            </div>
-            <div class="details-container">
-              <h2 class="experience-sub-title">Frontend Development</h2>
-              <div class="article-container">
-                <article>
-                  <img
-                    src="./assets/checkmark.png"
-                    alt="Experience icon"
-                    class="icon"
-                  />
-                  <div>
-                    <h3>PostgreSQL</h3>
-                    <p>Basic</p>
-                  </div>
-                </article>
-                <article>
-                  <img
-                    src="./assets/checkmark.png"
-                    alt="Experience icon"
-                    class="icon"
-                  />
-                  <div>
-                    <h3>Node JS</h3>
-                    <p>Intermediate</p>
-                  </div>
-                </article>
-                <article>
-                  <img
-                    src="./assets/checkmark.png"
-                    alt="Experience icon"
-                    class="icon"
-                  />
-                  <div>
-                    <h3>Express JS</h3>
-                    <p>Intermediate</p>
-                  </div>
-                </article>
-                <article>
-                  <img
-                    src="./assets/checkmark.png"
-                    alt="Experience icon"
-                    class="icon"
-                  />
-                  <div>
-                    <h3>Git</h3>
-                    <p>Intermediate</p>
-                  </div>
-                </article>
-              </div>
-            </div>
-          </div>
+          <h3>Double Descent and Overfitting under Noisy Inputs and Distribution Shift for Linear Denoisers</h3>
         </div>
-        <img
-          src="./assets/arrow.png"
-          alt="Arrow icon"
-          class="icon arrow"
-          onclick="location.href='./#projects'"
-        />
+        
       </section>
+      <script src="script.js"></script>
 </body>
 </html>

@@ -8,6 +8,38 @@
     <link rel="stylesheet" href="mediaqueries.css">
 </head>
 <body>
+  <nav id="desktop-nav">
+    <div class="logo"> <a href="./index.html">Personal Webpage</a></div>
+    <div>
+        <ul class="nav-links">
+            <li> <a href="./index.html">About</a> </li>
+            <li> <a href="./research.html">Research</a> </li>
+            <li> <a href="./teaching.html">Teaching</a> </li>
+            <li> <a href="#">Talks</a> </li>
+            <li> <a href="./other.html">Others</a> </li>
+            <li> <a href="./index.html">Contact</a> </li>
+        </ul>
+    </div>
+</nav>
+<nav id="hamburger-nav">
+  <div class="logo"> <a href="./index.html"> Personal Webpage</a></div>
+  <div class="hamburger-menu">
+      <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+      </div>
+      <div class="menu-links">
+          <li> <a href="./index.html" onclick="toggleMenu()">About</a> </li>
+          <li> <a href="./research.html" onclick="toggleMenu()">Research</a> </li>
+          <li> <a href="./teaching.html" onclick="toggleMenu()">Teaching</a> </li>
+          <li> <a href="#" onclick="toggleMenu()">Talks</a> </li>
+          <li> <a href="./other.html" onclick="toggleMenu()">Others</a> </li>
+          <li> <a href="./index.html" onclick="toggleMenu()">Contact</a> </li>
+      </div>
+  </div>
+
+</nav>
     <section id="projects">
         <p class="section__text__p1">Browse My Recent</p>
         <h1 class="title">Projects</h1>
@@ -94,5 +126,6 @@
           onclick="location.href='./#contact'"
         />
       </section>
+      <script src="script.js"></script>
 </body>
 </html>
